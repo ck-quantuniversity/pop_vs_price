@@ -8,7 +8,7 @@ Please see the file 'Pop. vs. Price LR 2.0.ipynb'.
 https://hub.docker.com/r/rainite/pop_vs_price/
 
 This docker has installed all of the required models and can execute on a built-in jupyter notebook.
-After creating instance of the docker image, you can simply type this command and copy the jupyter link to browser.
+You can simply type this command to create instance of the docker image with exposing port 8888, and then copy the jupyter link to browser.
 ```shell
 docker run -it --rm -p 8888:8888 rainite/pop_vs_price
 ```
